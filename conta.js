@@ -12,7 +12,7 @@ console.log(`${contaCarlos.titular} possui r$ ${contaCarlos.saldo}.`);
 
 const contas = [contajoao, contaCarlos]
 
-conta.forEach((conta) => {
+contas.forEach((conta) => {
     console.log(`${conta.titular} tem R$ ${conta.saldo}`);
 });
 
